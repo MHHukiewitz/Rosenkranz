@@ -1,0 +1,98 @@
+{
+  "title": "Chapelet — aide-mémoire",
+  "table": {
+    "column_day": "Jour",
+    "column_mystery": "Mystère",
+    "rows": [
+      {"days": "Lundi / Samedi", "mystery": "Joyeux"},
+      {"days": "Mardi / Vendredi", "mystery": "Douloureux"},
+      {"days": "Mercredi / Dimanche", "mystery": "Glorieux"},
+      {"days": "Jeudi", "mystery": "Lumineux"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Joyeux",
+      "decades": [
+        "Que vous avez conçu, ô Vierge, du Saint-Esprit",
+        "Que vous avez porté, ô Vierge, à Élisabeth",
+        "Que vous avez enfanté, ô Vierge",
+        "Que vous avez présenté, ô Vierge, au Temple",
+        "Que vous avez retrouvé, ô Vierge, au Temple"
+      ]
+    },
+    "sorrowful": {
+      "label": "Douloureux",
+      "decades": [
+        "Qui a sué du sang pour nous",
+        "Qui a été fouetté pour nous",
+        "Qui a été couronné d’épines pour nous",
+        "Qui a porté la croix pour nous",
+        "Qui a été crucifié pour nous"
+      ]
+    },
+    "glorious": {
+      "label": "Glorieux",
+      "decades": [
+        "Qui est ressuscité des morts",
+        "Qui est monté au ciel",
+        "Qui nous a envoyé le Saint-Esprit",
+        "Qui vous a assumée, ô Vierge, au ciel",
+        "Qui vous a couronnée, ô Vierge, au ciel"
+      ]
+    },
+    "luminous": {
+      "label": "Lumineux",
+      "decades": [
+        "Qui a été baptisé par Jean",
+        "Qui s’est révélé aux noces de Cana",
+        "Qui nous a annoncé le royaume de Dieu",
+        "Qui a été transfiguré sur la montagne",
+        "Qui nous a donné l’Eucharistie"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Notre Père",
+      "text": "Notre Père qui es aux cieux, que ton nom soit sanctifié, que ton règne vienne, que ta volonté soit faite sur la terre comme au ciel. Donne-nous aujourd’hui notre pain de ce jour; pardonne-nous nos offenses, comme nous pardonnons aussi à ceux qui nous ont offensés; et ne nous laisse pas entrer en tentation, mais délivre-nous du mal. Amen."
+    },
+    "ave_maria": {
+      "title": "Je vous salue Marie",
+      "text": "Je vous salue, Marie, pleine de grâce, le Seigneur est avec vous; vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous pauvres pécheurs, maintenant et à l’heure de notre mort. Amen."
+    },
+    "creed": {
+      "title": "Symbole des Apôtres",
+      "text": "Je crois en Dieu, le Père tout-puissant, créateur du ciel et de la terre, et en Jésus Christ, son unique Fils, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers, le troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d’où il viendra juger les vivants et les morts. Je crois en l’Esprit Saint, à la sainte Église catholique, à la communion des saints, au pardon des péchés, à la résurrection de la chair, à la vie éternelle. Amen."
+    },
+    "fatima": {
+      "title": "Prière de Fatima",
+      "text": "Ô mon Jésus, pardonne-nous nos péchés, préserve-nous du feu de l’enfer, conduis au ciel toutes les âmes, surtout celles qui ont le plus besoin de ta miséricorde."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Prière finale",
+      "text": "Ô Dieu, dont le Fils unique, par sa vie, sa mort et sa résurrection, nous a mérité les récompenses de la vie éternelle : accorde-nous qu’en méditant ces mystères du très saint Rosaire de la bienheureuse Vierge Marie, nous imitions ce qu’ils contiennent et obtenions ce qu’ils promettent. Par le Christ notre Seigneur. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "Prier le chapelet",
+    "sections": [
+      {
+        "heading": "Qu’est-ce que c’est ?",
+        "body": "Le chapelet est une prière de l’Église qui honore la Vierge Marie et médite la vie, la passion et la gloire de Jésus-Christ. Avec un chapelet ou un simple compte des prières, on parcourt des « mystères »—des scènes bibliques—tout en répétant des prières familières qui apaisent l’esprit et ouvrent le cœur."
+      },
+      {
+        "heading": "De quoi avez-vous besoin ?",
+        "body": "Un chapelet est utile mais pas indispensable : on peut compter sur les doigts ou avec des nœuds. Trouvez un moment calme (même dix minutes). Avec cette feuille, lisez une courte phrase à chaque Je vous salue Marie pour rester dans le mystère du decade."
+      },
+      {
+        "heading": "À quoi cela sert-il ?",
+        "body": "Le chapelet nous mène à contempler le Christ avec Marie. Il favorise la paix, fortifie la foi et oriente les soucis vers l’amour de Dieu. Beaucoup le prient pour des intentions personnelles, pour la famille, pour l’Église et pour la paix dans le monde."
+      }
+    ]
+  }
+}

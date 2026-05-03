@@ -1,0 +1,98 @@
+{
+  "title": "Rosario — guía rápida",
+  "table": {
+    "column_day": "Día",
+    "column_mystery": "Misterio",
+    "rows": [
+      {"days": "Lunes / Sábado", "mystery": "Gozosos"},
+      {"days": "Martes / Viernes", "mystery": "Dolorosos"},
+      {"days": "Miércoles / Domingo", "mystery": "Gloriosos"},
+      {"days": "Jueves", "mystery": "Luminosos"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Gozosos",
+      "decades": [
+        "A quien tú, Virgen, concebiste por obra del Espíritu Santo",
+        "A quien tú, Virgen, llevaste a Isabel",
+        "A quien tú, Virgen, diste a luz",
+        "A quien tú, Virgen, presentaste en el Templo",
+        "A quien tú, Virgen, hallaste en el Templo"
+      ]
+    },
+    "sorrowful": {
+      "label": "Dolorosos",
+      "decades": [
+        "Que sudó sangre por nosotros",
+        "Que fue azotado por nosotros",
+        "Que fue coronado de espinas por nosotros",
+        "Que cargó la cruz por nosotros",
+        "Que fue crucificado por nosotros"
+      ]
+    },
+    "glorious": {
+      "label": "Gloriosos",
+      "decades": [
+        "Que resucitó de entre los muertos",
+        "Que ascendió al cielo",
+        "Que nos envió al Espíritu Santo",
+        "Que te asumió, Virgen, al cielo",
+        "Que te coronó, Virgen, en el cielo"
+      ]
+    },
+    "luminous": {
+      "label": "Luminosos",
+      "decades": [
+        "Que fue bautizado por Juan",
+        "Que se manifestó en las bodas de Caná",
+        "Que nos anunció el reino de Dios",
+        "Que fue transfigurado en el monte",
+        "Que nos instituyó la Eucaristía"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Padrenuestro",
+      "text": "Padre nuestro que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación, y líbranos del mal. Amén."
+    },
+    "ave_maria": {
+      "title": "Ave María",
+      "text": "Dios te salve, María, llena eres de gracia, el Señor es contigo; bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    "creed": {
+      "title": "Credo de los Apóstoles",
+      "text": "Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra. Creo en Jesucristo, su único Hijo, Señor nuestro, que fue concebido por obra y gracia del Espíritu Santo, nació de Santa María Virgen, padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado, descendió a los infiernos, al tercer día resucitó de entre los muertos, subió a los cielos y está sentado a la derecha de Dios Padre todopoderoso; desde allí ha de venir a juzgar a vivos y muertos. Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. Amén."
+    },
+    "fatima": {
+      "title": "Oración de Fátima",
+      "text": "Oh Jesús mío, perdona nuestros pecados, líbranos del fuego del infierno, lleva al cielo a todas las almas, especialmente a las más necesitadas de tu misericordia."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Oración final",
+      "text": "Oh Dios, cuyo Hijo unigénito con su vida, muerte y resurrección nos mereció los premios de la vida eterna: concédenos que, meditando los misterios del santísimo Rosario de la Virgen María, imitemos lo que contienen y alcancemos lo que prometen. Por Cristo nuestro Señor. Amén."
+    }
+  },
+  "tutorial": {
+    "title": "Rezar el Rosario",
+    "sections": [
+      {
+        "heading": "¿Qué es?",
+        "body": "El Rosario es una oración de la Iglesia que honra a la Virgen María y medita la vida, pasión y gloria de Jesucristo. Con cuentas o un ritmo sencillo de oraciones recorres los “misterios”—escenas bíblicas—mientras repites oraciones familiares que calman el ánimo y abren el corazón."
+      },
+      {
+        "heading": "¿Qué necesitas?",
+        "body": "Un rosario ayuda, pero no es obligatorio: puedes contar con los dedos o con nudos. Busca un momento tranquilo (aunque sean diez minutos). Con esta hoja, lee una frase corta por cada Ave María para fijarte en el misterio de esa década."
+      },
+      {
+        "heading": "¿Para qué sirve?",
+        "body": "El Rosario nos lleva a contemplar a Cristo con María. Da paz, fortalece la fe y orienta las preocupaciones hacia el amor de Dios. Muchos lo rezan por intenciones propias, por familiares, por la Iglesia y por la paz en el mundo."
+      }
+    ]
+  }
+}

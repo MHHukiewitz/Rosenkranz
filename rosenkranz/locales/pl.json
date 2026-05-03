@@ -1,0 +1,98 @@
+{
+  "title": "Różaniec — ściąga",
+  "table": {
+    "column_day": "Dzień",
+    "column_mystery": "Tajemnica",
+    "rows": [
+      {"days": "Poniedziałek / Sobota", "mystery": "Radosne"},
+      {"days": "Wtorek / Piątek", "mystery": "Bolesne"},
+      {"days": "Środa / Niedziela", "mystery": "Chwalebne"},
+      {"days": "Czwartek", "mystery": "Światła"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Radosne",
+      "decades": [
+        "Któryś począł, Panno, z Ducha Świętego",
+        "Którąś, Panno, do Elżbiety niosła",
+        "Któregoś, Panno, porodziła",
+        "Któregoś, Panno, w świątyni ofiarowała",
+        "Któregoś, Panno, w świątyni odnalazła"
+      ]
+    },
+    "sorrowful": {
+      "label": "Bolesne",
+      "decades": [
+        "Który się dla nas krwawą pocą oblał",
+        "Który dla nas biczowany był",
+        "Który dla nas cierniem ukoronowany był",
+        "Który dla nas krzyż ciężki dźwigał",
+        "Który dla nas ukrzyżowany był"
+      ]
+    },
+    "glorious": {
+      "label": "Chwalebne",
+      "decades": [
+        "Który zmartwychwstał",
+        "Który na niebo wstąpił",
+        "Który nam Ducha Świętego zesłał",
+        "Który Cię, Panno, do nieba wziął",
+        "Który Cię, Panno, w niebie ukoronował"
+      ]
+    },
+    "luminous": {
+      "label": "Światła",
+      "decades": [
+        "Który w Jordanie jest chrzczony",
+        "Który na weselu w Kanie objawił się",
+        "Który nam królestwo Boże zwiastował",
+        "Który na górze Przemienienia się ukazał",
+        "Który nam Eucharystię ustanowił"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Ojcze nasz",
+      "text": "Ojcze nasz, któryś jest w niebie, święć się imię Twoje, przyjdź królestwo Twoje, bądź wola Twoza jako w niebie tak i na ziemi. Chleba naszego powszedniego daj nam dzisiaj i odpuść nam nasze winy, jako i my odpuszczamy naszym winowajcom i nie wódź nas na pokuszenie, ale nas zbaw od złego. Amen."
+    },
+    "ave_maria": {
+      "title": "Zdrowaś Maryjo",
+      "text": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen."
+    },
+    "creed": {
+      "title": "Wyznanie wiary",
+      "text": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego Jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Poncjuszem Piłatem, ukrzyżowany, umarł i pogrzebion, zstąpił do piekieł, trzeciego dnia zmartwychwstał, wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego, stamtąd przyjdzie sądzić żywych i umarłych. Wierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny. Amen."
+    },
+    "fatima": {
+      "title": "Modlitwa fatimska",
+      "text": "O Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba, szczególnie te, które najbardziej potrzebują Twojego miłosierdzia."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Modlitwa końcowa",
+      "text": "Boże, Jednorodzony Syn Twój, przez swoje życie, mękę i zmartwychwstanie, zjednał nam nagrody żywota wiecznego: spraw niech rozważając tajemnice różańca świętego Najświętszej Maryi Panny, naśladujemy to, co zawierają, i osiągniemy to, co obiecują. Przez Chrystusa, Pana naszego. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "Jak odmawiać różaniec",
+    "sections": [
+      {
+        "heading": "Czym jest różaniec?",
+        "body": "Różaniec to modlitwa Kościoła, w której czcimy Najświętszą Maryję Pannę i rozważamy życie, mękę i chwałę Jezusa Chrystusa. Z koronką albo prostym liczeniem przechodzimy przez „tajemnice”—sceny z Pisma—powtarzając znane modlitwy, które uspokajają umysł i otwierają serce."
+      },
+      {
+        "heading": "Czego potrzebujesz?",
+        "body": "Koronka pomaga, ale nie jest konieczna: można liczyć na palcach albo na węzłach. Znajdź spokojny moment (nawet dziesięć minut). Z tą ściągą czytaj krótką frazę przy każdym Zdrowaś Maryjo, by trwać w medytacji danej dziesiątki."
+      },
+      {
+        "heading": "Po co się go odmawia?",
+        "body": "Różaniec prowadzi nas do kontemplacji Chrystusa z Maryją. Wspiera pokój, umacnia wiarę i kieruje troski ku miłości Boga. Wielu modli się w osobistych intencjach, za rodzinę, Kościół i pokój na świecie."
+      }
+    ]
+  }
+}

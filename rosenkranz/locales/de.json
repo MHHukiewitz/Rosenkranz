@@ -1,0 +1,98 @@
+{
+  "title": "Rosenkranz – Spickzettel",
+  "table": {
+    "column_day": "Tag",
+    "column_mystery": "Geheimnisart",
+    "rows": [
+      {"days": "Montag / Samstag", "mystery": "Freudenreich"},
+      {"days": "Dienstag / Freitag", "mystery": "Schmerzensreich"},
+      {"days": "Mittwoch / Sonntag", "mystery": "Glorreich"},
+      {"days": "Donnerstag", "mystery": "Lichtreich"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Freudenreich",
+      "decades": [
+        "Den du, o Jungfrau, vom Heiligen Geist empfangen hast",
+        "Den du, o Jungfrau, zu Elisabeth getragen hast",
+        "Den du, o Jungfrau, geboren hast",
+        "Den du, o Jungfrau, im Tempel aufgeopfert hast",
+        "Den du, o Jungfrau, im Tempel wiedergefunden hast"
+      ]
+    },
+    "sorrowful": {
+      "label": "Schmerzensreich",
+      "decades": [
+        "Der für uns Blut geschwitzt hat",
+        "Der für uns gegeißelt worden ist",
+        "Der für uns mit Dornen gekrönt worden ist",
+        "Der für uns das schwere Kreuz getragen hat",
+        "Der für uns gekreuzigt worden ist"
+      ]
+    },
+    "glorious": {
+      "label": "Glorreich",
+      "decades": [
+        "Der von den Toten auferstanden ist",
+        "Der in den Himmel aufgefahren ist",
+        "Der uns den Heiligen Geist gesandt hat",
+        "Der dich, o Jungfrau, in den Himmel aufgenommen hat",
+        "Der dich, o Jungfrau, im Himmel gekrönt hat"
+      ]
+    },
+    "luminous": {
+      "label": "Lichtreich",
+      "decades": [
+        "Der von Johannes getauft worden ist",
+        "Der sich bei der Hochzeit in Kana offenbart hat",
+        "Der uns das Reich Gottes verkündet hat",
+        "Der auf dem Berg verklärt worden ist",
+        "Der uns die Eucharistie geschenkt hat"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Vaterunser",
+      "text": "Vater unser im Himmel, geheiligt werde dein Name. Dein Reich komme. Dein Wille geschehe, wie im Himmel so auf Erden. Unser tägliches Brot gib uns heute. Und vergib uns unsere Schuld, wie auch wir vergeben unsern Schuldigern. Und führe uns nicht in Versuchung, sondern erlöse uns vom Bösen. Amen."
+    },
+    "ave_maria": {
+      "title": "Ave Maria",
+      "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen."
+    },
+    "creed": {
+      "title": "Glaubensbekenntnis",
+      "text": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unseren Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben, hinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters; von dort wird er kommen, zu richten die Lebenden und die Toten. Ich glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben. Amen."
+    },
+    "fatima": {
+      "title": "Fatima-Gebet",
+      "text": "O mein Jesus, verzeih uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders jene, die deiner Barmherzigkeit am meisten bedürfen."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Schlussgebet",
+      "text": "O Gott, dessen eingeborener Sohn uns durch sein Leben, seinen Tod und seine Auferstehung die Schätze des ewigen Lebens erworben hat: Lass uns, so bitten wir, indem wir diese Geheimnisse im heiligen Rosenkranz der seligen Jungfrau Maria betrachten, nachahmen, was sie enthalten, und erlangen, was sie verheißen. Durch Christus, unseren Herrn. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "Den Rosenkranz beten",
+    "sections": [
+      {
+        "heading": "Was ist das?",
+        "body": "Der Rosenkranz ist ein gebetvoller Weg der Kirche: Wir ehren die selige Jungfrau Maria und schauen auf das Leben, Leiden und die Herrlichkeit Jesu Christi. Mit einem Kranz oder einem einfachen Zählen gehen wir die „Geheimnisse“ durch—biblische Bilder—und wiederholen vertraute Gebete, die beruhigen und das Herz öffnen."
+      },
+      {
+        "heading": "Was brauchst du?",
+        "body": "Ein Rosenkranz hilft, ist aber nicht zwingend: Du kannst auf den Fingern zählen oder Knoten nutzen. Such dir eine ruhige Zeit (auch nur wenige Minuten). Dieser Spickzettel gibt dir zu jedem Ave eine kurze Zeile pro Geheimnis, damit du beim Beten meditieren kannst."
+      },
+      {
+        "heading": "Wozu dient er?",
+        "body": "Der Rosenkranz führt uns mit Maria zu Christus. Er schenkt Frieden, stärkt den Glauben und richtet Sorgen auf Gott aus. Viele beten ihn für eigene Anliegen, für Familie und Freunde, für die Kirche und für Frieden in der Welt."
+      }
+    ]
+  }
+}

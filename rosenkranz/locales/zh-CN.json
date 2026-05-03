@@ -1,0 +1,98 @@
+{
+  "title": "玫瑰经 — 速查页",
+  "table": {
+    "column_day": "日期",
+    "column_mystery": "奥迹",
+    "rows": [
+      {"days": "星期一／星期六", "mystery": "欢喜奥迹"},
+      {"days": "星期二／星期五", "mystery": "痛苦奥迹"},
+      {"days": "星期三／主日", "mystery": "荣福奥迹"},
+      {"days": "星期四", "mystery": "光明奥迹"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "欢喜",
+      "decades": [
+        "圣母蒙圣神受孕",
+        "圣母往见圣妇依撒伯尔",
+        "圣母诞生耶稣",
+        "圣母献耶稣于主殿",
+        "圣母寻获耶稣"
+      ]
+    },
+    "sorrowful": {
+      "label": "痛苦",
+      "decades": [
+        "耶稣山园祈祷失血汗",
+        "耶稣受鞭打",
+        "耶稣受茨冠之苦",
+        "耶稣背十字架上山",
+        "耶稣被钉十字架"
+      ]
+    },
+    "glorious": {
+      "label": "荣福",
+      "decades": [
+        "耶稣复活",
+        "耶稣升天",
+        "圣神降临",
+        "圣母升天",
+        "圣母在天受加冕"
+      ]
+    },
+    "luminous": {
+      "label": "光明",
+      "decades": [
+        "耶稣受若翰洗礼",
+        "耶稣参加加纳婚宴",
+        "耶稣宣讲天国",
+        "耶稣显圣容",
+        "耶稣建立圣体圣事"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "天主经",
+      "text": "在天我等父者，我等愿尔名见圣，尔国临格，尔旨承行于地，如于天焉。我等望尔，今日与我，我日用粮，尔免我债，如我亦免负我债者，又不我许陷于诱，乃救我于凶恶。亚孟。"
+    },
+    "ave_maria": {
+      "title": "圣母经",
+      "text": "万福玛利亚，满被圣宠者，主与尔偕焉，女中尔为赞美，尔胎子耶稣并为赞美。天主圣母玛利亚，为我等罪人，今祈天主，及我等死候。亚孟。"
+    },
+    "creed": {
+      "title": "信经",
+      "text": "我信全能的天主父，天地万物的创造者。我信父的唯一子，我们的主耶稣基督：祂因圣神由童贞玛利亚取得肉躯，而成为人；在般雀比拉多执政时，被钉十字架，死而安葬；祂下降阴府，第三日从死者中复活；祂升了天，坐在全能天主父的右边；祂要从天降来，审判生者死者。我信圣神，圣而公教会，诸圣相通功；罪过的赦免；肉身的复活；永恒的生命。亚孟。"
+    },
+    "fatima": {
+      "title": "法蒂玛祷文",
+      "text": "我的耶稣啊，宽恕我们的罪过，救我们免于地狱永火，引一切灵魂到天国，尤其是最需要祢仁慈的灵魂。"
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "结束祷文",
+      "text": "天主，祢的唯一圣子以其生平、苦难与复活，为我们赢得了永生的赏报；求祢使我们默想荣福童贞玛利亚玫瑰经的诸奥迹时，能效法其所含的美德，并获得其所许诺的恩惠。因我们的主基督。亚孟。"
+    }
+  },
+  "tutorial": {
+    "title": "玫瑰经祈祷入门",
+    "sections": [
+      {
+        "heading": "什么是玫瑰经？",
+        "body": "玫瑰经是教会的祈祷，敬礼圣母玛利亚，并默想耶稣基督的生命、苦难与光荣。借着念珠或简单的计数方式，在一组组「奥迹」（圣经场景）中重复熟悉的经文，使心神安定并向恩宠敞开。"
+      },
+      {
+        "heading": "需要什么？",
+        "body": "念珠很有帮助，但并非必需；用手指或小绳结计数也可以。找一个安静的时刻（哪怕十分钟）。配合本页时，可在每次念圣母经时读一行短句，以帮助专注于该端的奥迹。"
+      },
+      {
+        "heading": "有什么益处？",
+        "body": "玫瑰经带领我们与玛利亚一同瞻仰基督。它能带来平安、坚固信德，并把日常的忧虑转向天主的爱。许多人也为个人意向、亲友、教会与世界和平而诵念。"
+      }
+    ]
+  }
+}

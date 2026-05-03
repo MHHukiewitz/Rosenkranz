@@ -1,0 +1,98 @@
+{
+  "title": "Terço — folha de apoio",
+  "table": {
+    "column_day": "Dia",
+    "column_mystery": "Mistério",
+    "rows": [
+      {"days": "Segunda / Sábado", "mystery": "Gozosos"},
+      {"days": "Terça / Sexta", "mystery": "Dolorosos"},
+      {"days": "Quarta / Domingo", "mystery": "Gloriosos"},
+      {"days": "Quinta-feira", "mystery": "Luminosos"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Gozosos",
+      "decades": [
+        "A quem tu, ó Virgem, concebeste pelo Espírito Santo",
+        "A quem tu, ó Virgem, levaste a Isabel",
+        "A quem tu, ó Virgem, deste à luz",
+        "A quem tu, ó Virgem, apresentaste no Templo",
+        "A quem tu, ó Virgem, achaste no Templo"
+      ]
+    },
+    "sorrowful": {
+      "label": "Dolorosos",
+      "decades": [
+        "Que por nós suou sangue",
+        "Que por nós foi flagelado",
+        "Que por nós foi coroado de espinhos",
+        "Que por nós carregou a cruz",
+        "Que por nós foi crucificado"
+      ]
+    },
+    "glorious": {
+      "label": "Gloriosos",
+      "decades": [
+        "Que ressuscitou dentre os mortos",
+        "Que subiu ao céu",
+        "Que nos enviou o Espírito Santo",
+        "Que vos assumiu, ó Virgem, ao céu",
+        "Que vos coroou, ó Virgem, no céu"
+      ]
+    },
+    "luminous": {
+      "label": "Luminosos",
+      "decades": [
+        "Que foi batizado por João",
+        "Que se manifestou nas bodas de Caná",
+        "Que nos anunciou o reino de Deus",
+        "Que foi transfigurado no monte",
+        "Que nos instituiu a Eucaristia"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Pai-Nosso",
+      "text": "Pai nosso que estais nos Céus, santificado seja o Vosso nome, venha a nós o Vosso reino, seja feita a Vossa vontade assim na terra como no Céu. O pão nosso de cada dia nos dai hoje, perdoai-nos as nossas ofensas assim como nós perdoamos a quem nos tem ofendido, e não nos deixeis cair em tentação, mas livrai-nos do mal. Amen."
+    },
+    "ave_maria": {
+      "title": "Ave-Maria",
+      "text": "Ave, Maria, cheia de graça, o Senhor é convosco, bendita sois Vós entre as mulheres, e bendito é o fruto do Vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Amen."
+    },
+    "creed": {
+      "title": "Credo dos Apóstolos",
+      "text": "Creio em Deus Pai todo-poderoso, Criador do céu e da terra. E em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo Espírito Santo, nascer da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado, desceu à mansão dos mortos, ressuscitou ao terceiro dia, subiu aos céus, está sentado à direita de Deus Pai todo-poderoso, donde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na Santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amen."
+    },
+    "fatima": {
+      "title": "Oração de Fátima",
+      "text": "Ó meu Jesus, perdoai-nos as nossas culpas, preservai-nos do fogo do inferno, levai ao Céu todas as almas, especialmente as que mais precisarem da vossa misericórdia."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Oração final",
+      "text": "Ó Deus, cujo Filho Unigênito, com a sua vida, morte e ressurreição, nos mereceu os prémios da vida eterna: concedei-nos que, meditando os mistérios do santíssimo Rosário da bem-aventurada Virgem Maria, imitemos o que eles contêm e alcancemos o que prometem. Por Cristo nosso Senhor. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "Rezar o terço",
+    "sections": [
+      {
+        "heading": "O que é?",
+        "body": "O terço é uma oração da Igreja que honra a Virgem Maria e medita a vida, paixão e glória de Jesus Cristo. Com contas ou uma cadência simples de orações, percorremos os «mistérios»—cenas bíblicas—repetindo orações familiares que acalmam e abrem o coração."
+      },
+      {
+        "heading": "Do que precisa?",
+        "body": "Um terço ajuda, mas não é obrigatório: pode contar nos dedos ou com nós. Arranje um momento calmo (mesmo dez minutos). Com esta folha, leia uma frase curta por cada Ave-Maria para se concentrar no mistério da dezena."
+      },
+      {
+        "heading": "Para que serve?",
+        "body": "O terço leva-nos a contemplar Cristo com Maria. Dá paz, fortalece a fé e orienta as preocupações para o amor de Deus. Muitos rezam por intenções pessoais, pela família, pela Igreja e pela paz no mundo."
+      }
+    ]
+  }
+}

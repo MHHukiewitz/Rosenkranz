@@ -1,0 +1,98 @@
+{
+  "title": "Rosary — cheat sheet",
+  "table": {
+    "column_day": "Day",
+    "column_mystery": "Mystery set",
+    "rows": [
+      {"days": "Monday / Saturday", "mystery": "Joyful"},
+      {"days": "Tuesday / Friday", "mystery": "Sorrowful"},
+      {"days": "Wednesday / Sunday", "mystery": "Glorious"},
+      {"days": "Thursday", "mystery": "Luminous"}
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Joyful",
+      "decades": [
+        "Whom thou, O Virgin, didst conceive by the Holy Ghost",
+        "Whom thou, O Virgin, didst carry to Elizabeth",
+        "Whom thou, O Virgin, didst give birth to",
+        "Whom thou, O Virgin, didst present in the Temple",
+        "Whom thou, O Virgin, didst find in the Temple"
+      ]
+    },
+    "sorrowful": {
+      "label": "Sorrowful",
+      "decades": [
+        "Who sweated blood for us",
+        "Who was scourged for us",
+        "Who was crowned with thorns for us",
+        "Who carried the heavy cross for us",
+        "Who was crucified for us"
+      ]
+    },
+    "glorious": {
+      "label": "Glorious",
+      "decades": [
+        "Who rose from the dead",
+        "Who ascended into heaven",
+        "Who sent us the Holy Ghost",
+        "Who assumed thee, O Virgin, into heaven",
+        "Who crowned thee, O Virgin, in heaven"
+      ]
+    },
+    "luminous": {
+      "label": "Luminous",
+      "decades": [
+        "Who was baptized by John",
+        "Who revealed Himself at the wedding at Cana",
+        "Who proclaimed the kingdom of God to us",
+        "Who was transfigured on the mountain",
+        "Who instituted the Eucharist for us"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Our Father",
+      "text": "Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+    },
+    "ave_maria": {
+      "title": "Hail Mary",
+      "text": "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
+    },
+    "creed": {
+      "title": "Apostles' Creed",
+      "text": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; He descended into hell; on the third day He rose again from the dead; He ascended into heaven, and is seated at the right hand of God the Father almighty; from there He will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+    },
+    "fatima": {
+      "title": "Fatima prayer",
+      "text": "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of Thy mercy."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Closing prayer",
+      "text": "O God, whose only begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal life: grant, we beseech Thee, that meditating upon these mysteries of the most holy Rosary of the Blessed Virgin Mary, we may imitate what they contain and obtain what they promise. Through Christ our Lord. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "Praying the Rosary",
+    "sections": [
+      {
+        "heading": "What is it?",
+        "body": "The Rosary is a prayer of the Church that honors the Blessed Virgin Mary and meditates on the life, passion, and glory of Jesus Christ. With beads or a simple rhythm of prayers, you walk through sets of “mysteries”—scenes from Scripture—while repeating familiar prayers that settle the mind and open the heart to grace."
+      },
+      {
+        "heading": "What do you need?",
+        "body": "A rosary is helpful but not required: you can keep count on your fingers or with knots. Find a quiet moment (even ten minutes). Optionally light a candle or sit in church or at home. If you use this sheet, read one short line per Hail Mary to stay focused on that decade’s mystery."
+      },
+      {
+        "heading": "What is it for?",
+        "body": "The Rosary leads us to contemplate Christ with Mary. It fosters peace, strengthens faith, and turns everyday worries toward God’s loving plan. Many pray it for personal intentions, for family and friends, for the Church, and for peace in the world."
+      }
+    ]
+  }
+}

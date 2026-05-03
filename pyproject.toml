@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rosenkranz-pdf"
+version = "0.1.0"
+description = "Generate printable Rosary cheat-sheet PDFs in multiple languages, light/dark themes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "reportlab>=4.0",
+]
+
+[project.scripts]
+rosenkranz-pdf = "rosenkranz.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rosenkranz*"]
+
+[tool.setuptools.package-data]
+rosenkranz = ["locales/*.json"]
