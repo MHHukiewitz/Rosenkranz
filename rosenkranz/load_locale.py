@@ -29,17 +29,8 @@ def load_locale(lang_code: str) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def require_tutorial(data: dict) -> dict:
+def get_tutorial(data: dict) -> dict:
     tut = data.get("tutorial")
     if not tut or not tut.get("title") or not tut.get("sections"):
-        raise SystemExit("This locale file has no 'tutorial' section; cannot use --tutorial.")
+        raise SystemExit("Locale JSON must include a complete 'tutorial' section.")
     return tut
-
-
-def require_full_prayers(data: dict) -> tuple[dict, dict]:
-    prayers = data.get("prayers") or {}
-    pater = prayers.get("pater_noster")
-    ave = prayers.get("ave_maria")
-    if not pater or not ave:
-        raise SystemExit("Locale missing pater_noster or ave_maria; cannot use --full.")
-    return pater, ave

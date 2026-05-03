@@ -10,6 +10,17 @@
       {"days": "Czwartek", "mystery": "Światła"}
     ]
   },
+  "prayer_order": {
+    "title": "Porządek modlitwy",
+    "steps": [
+      "Znak krzyża",
+      "Wyznanie wiary",
+      "3× Zdrowaś Maryjo (wiara, nadzieja, miłość)",
+      "5 dziesiątek: Ojcze nasz, 10× Zdrowaś Maryjo, Chwała Ojcu i fatimska",
+      "Witaj Królowo (Salve Regina)",
+      "Modlitwa końcowa"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "Radosne",
@@ -61,6 +72,10 @@
       "title": "Zdrowaś Maryjo",
       "text": "Zdrowaś Maryjo, łaski pełna, Pan z Tobą, błogosławionaś Ty między niewiastami i błogosławiony owoc żywota Twojego, Jezus. Święta Maryjo, Matko Boża, módl się za nami grzesznymi, teraz i w godzinę śmierci naszej. Amen."
     },
+    "gloria": {
+      "title": "Chwała Ojcu",
+      "text": "Chwała Ojcu i Synowi i Duchowi Świętemu. Jak była na początku, teraz i zawsze i na wieki wieków. Amen."
+    },
     "creed": {
       "title": "Wyznanie wiary",
       "text": "Wierzę w Boga, Ojca wszechmogącego, Stworzyciela nieba i ziemi, i w Jezusa Chrystusa, Syna Jego Jedynego, Pana naszego, który się począł z Ducha Świętego, narodził się z Maryi Panny, umęczon pod Poncjuszem Piłatem, ukrzyżowany, umarł i pogrzebion, zstąpił do piekieł, trzeciego dnia zmartwychwstał, wstąpił na niebiosa, siedzi po prawicy Boga Ojca wszechmogącego, stamtąd przyjdzie sądzić żywych i umarłych. Wierzę w Ducha Świętego, święty Kościół powszechny, świętych obcowanie, grzechów odpuszczenie, ciała zmartwychwstanie, żywot wieczny. Amen."
@@ -70,8 +85,8 @@
       "text": "O Jezu, przebacz nam nasze grzechy, zachowaj nas od ognia piekielnego, zaprowadź wszystkie dusze do nieba, szczególnie te, które najbardziej potrzebują Twojego miłosierdzia."
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "Witaj Królowo",
+      "text": "Witaj Królowo, Matko miłosierdzia, żywocie, rozkoszy i nadziejo nasza, witaj. Do Ciebie wołamy wygnańcy synowie Ewy, do Ciebie wzdychamy, jęcząc i płacząc w tej dolnie łez. Przeto Orędowniczko nasza, racz miłosierne oczy Twoje ku nam obrócić. A Jezusa, błogosławiony owoc żywota Twego, po tym wygnaniu nam okaż. O łaskawa, o miłościwa, o słodka Panno Mario."
     },
     "closing": {
       "title": "Modlitwa końcowa",
@@ -92,6 +107,10 @@
       {
         "heading": "Po co się go odmawia?",
         "body": "Różaniec prowadzi nas do kontemplacji Chrystusa z Maryją. Wspiera pokój, umacnia wiarę i kieruje troski ku miłości Boga. Wielu modli się w osobistych intencjach, za rodzinę, Kościół i pokój na świecie."
+      },
+      {
+        "heading": "Pełna kolejność modlitwy",
+        "body": "1. Znak krzyża.\n\n2. Wyznanie wiary.\n\n3. Trzy razy Zdrowaś Maryjo — o wzrost wiary, nadziei i miłości (tradycyjna „trójka” przed dziesiątkami).\n\n4. Ogłoś pierwszą tajemnicę dzisiejszego różańca; potem w każdej dziesiątce: Ojcze nasz, dziesięć Zdrowaś Maryjo przy rozważaniu tajemnicy, Chwała Ojcu, modlitwa fatimska — pięć razy.\n\n5. Witaj Królowo (Salve Regina) lub sezonowa antyfona maryjna.\n\n6. Modlitwa końcowa różańca."
       }
     ]
   }

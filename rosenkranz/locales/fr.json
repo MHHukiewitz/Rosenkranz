@@ -10,6 +10,17 @@
       {"days": "Jeudi", "mystery": "Lumineux"}
     ]
   },
+  "prayer_order": {
+    "title": "Ordre des prières",
+    "steps": [
+      "Signe de la croix",
+      "Symbole des Apôtres",
+      "3× Je vous salue Marie (foi, espérance, charité)",
+      "5 dizaines : Notre Père, 10× Ave Maria, Gloire & Fatima",
+      "Salut, ô Reine (Salve Regina)",
+      "Prière finale"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "Joyeux",
@@ -61,6 +72,10 @@
       "title": "Je vous salue Marie",
       "text": "Je vous salue, Marie, pleine de grâce, le Seigneur est avec vous; vous êtes bénie entre toutes les femmes, et Jésus, le fruit de vos entrailles, est béni. Sainte Marie, Mère de Dieu, priez pour nous pauvres pécheurs, maintenant et à l’heure de notre mort. Amen."
     },
+    "gloria": {
+      "title": "Gloire au Père",
+      "text": "Gloire au Père, au Fils, et au Saint-Esprit, comme il était au commencement, maintenant et toujours, et dans les siècles des siècles. Amen."
+    },
     "creed": {
       "title": "Symbole des Apôtres",
       "text": "Je crois en Dieu, le Père tout-puissant, créateur du ciel et de la terre, et en Jésus Christ, son unique Fils, notre Seigneur, qui a été conçu du Saint-Esprit, est né de la Vierge Marie, a souffert sous Ponce Pilate, a été crucifié, est mort et a été enseveli, est descendu aux enfers, le troisième jour est ressuscité des morts, est monté aux cieux, est assis à la droite de Dieu le Père tout-puissant, d’où il viendra juger les vivants et les morts. Je crois en l’Esprit Saint, à la sainte Église catholique, à la communion des saints, au pardon des péchés, à la résurrection de la chair, à la vie éternelle. Amen."
@@ -70,8 +85,8 @@
       "text": "Ô mon Jésus, pardonne-nous nos péchés, préserve-nous du feu de l’enfer, conduis au ciel toutes les âmes, surtout celles qui ont le plus besoin de ta miséricorde."
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "Salut, ô Reine",
+      "text": "Salut, ô Reine, Mère de miséricorde, notre vie, notre douceur et notre espérance, salut ! Vers vous nous levons les cris, exilés fils d’Ève ; vers vous nous soupirons, gémissant et pleurant dans cette vallée de larmes. Tournez donc vers nous vos regards compatissants, ô vous notre Avocate ; et après cet exil, montrez-nous Jésus, le fruit béni de vos entrailles, ô clémente, ô miséricordieuse, ô douce Vierge Marie."
     },
     "closing": {
       "title": "Prière finale",
@@ -92,6 +107,10 @@
       {
         "heading": "À quoi cela sert-il ?",
         "body": "Le chapelet nous mène à contempler le Christ avec Marie. Il favorise la paix, fortifie la foi et oriente les soucis vers l’amour de Dieu. Beaucoup le prient pour des intentions personnelles, pour la famille, pour l’Église et pour la paix dans le monde."
+      },
+      {
+        "heading": "Déroulement détaillé",
+        "body": "1. Signe de la croix.\n\n2. Symbole des Apôtres.\n\n3. Trois Je vous salue Marie pour la foi, l’espérance et la charité — le triplet d’introduction avant les dizaines.\n\n4. Annoncer le premier mystère du chapelet du jour ; puis pour chaque dizaine : un Notre Père, dix Je vous salue Marie en méditant le mystère, Gloire au Père, prière de Fatima — cinq fois.\n\n5. Salut, ô Reine (Salve Regina), ou l’antienne mariale du temps liturgique.\n\n6. Prière finale du chapelet."
       }
     ]
   }

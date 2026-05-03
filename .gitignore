@@ -3,13 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 .Python
-dist/
 build/
 *.egg-info/
 *.egg
 .eggs/
 
 *.pdf
+!dist/**/*.pdf
 
 rosenkranz/fonts/*.ttf
 rosenkranz/fonts/*.otf

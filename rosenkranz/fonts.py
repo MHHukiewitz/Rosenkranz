@@ -18,14 +18,21 @@ LOCALE_SCRIPT_GROUPS = {
 
 _CANDIDATES = {
     "cjk_ja": [
+        # Variable TTF (glyf outlines): ReportLab TTFont does not load CJK .otf (CFF) from noto-cjk.
+        ("NotoSansCJKjp-VF.ttf", "NotoSansCJKjp-VF.ttf"),
+        ("NotoSansCJKjp-Regular.otf", "NotoSansCJKjp-Bold.otf"),
         ("NotoSansJP-Regular.otf", "NotoSansJP-Bold.otf"),
         ("NotoSansJP-Regular.ttf", "NotoSansJP-Bold.ttf"),
     ],
     "cjk_ko": [
+        ("NotoSansCJKkr-VF.ttf", "NotoSansCJKkr-VF.ttf"),
+        ("NotoSansCJKkr-Regular.otf", "NotoSansCJKkr-Bold.otf"),
         ("NotoSansKR-Regular.otf", "NotoSansKR-Bold.otf"),
         ("NotoSansKR-Regular.ttf", "NotoSansKR-Bold.ttf"),
     ],
     "cjk_zh": [
+        ("NotoSansCJKsc-VF.ttf", "NotoSansCJKsc-VF.ttf"),
+        ("NotoSansCJKsc-Regular.otf", "NotoSansCJKsc-Bold.otf"),
         ("NotoSansSC-Regular.otf", "NotoSansSC-Bold.otf"),
         ("NotoSansSC-Regular.ttf", "NotoSansSC-Bold.ttf"),
     ],

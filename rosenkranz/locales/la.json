@@ -1,0 +1,117 @@
+{
+  "title": "Rosarium — chartula compendiaria",
+  "table": {
+    "column_day": "Dies",
+    "column_mystery": "Mysteriorum genus",
+    "rows": [
+      {"days": "Dies Lunae et Saturni", "mystery": "Gaudiosa"},
+      {"days": "Dies Martis et Veneris", "mystery": "Dolorosa"},
+      {"days": "Dies Mercurii et Dominica", "mystery": "Gloriosa"},
+      {"days": "Dies Iovis", "mystery": "Luminosa"}
+    ]
+  },
+  "prayer_order": {
+    "title": "Ordo precum (brevis)",
+    "steps": [
+      "Signum crucis",
+      "Symbolum Apostolicum",
+      "3× Ave Maria (fides, spes, caritas)",
+      "Quinquies: Pater, 10× Ave, Gloria & precatio Fatimensis",
+      "Salve Regina",
+      "Precatio finalis"
+    ]
+  },
+  "mysteries": {
+    "joyful": {
+      "label": "Gaudiosa",
+      "decades": [
+        "Quem tu, Virgo, de Spiritu Sancto concepisti",
+        "Quem tu, Virgo, ad Elisabeth portasti",
+        "Quem tu, Virgo, genuisti",
+        "Quem tu, Virgo, in templo praesentasti",
+        "Quem tu, Virgo, in templo invenisti"
+      ]
+    },
+    "sorrowful": {
+      "label": "Dolorosa",
+      "decades": [
+        "Qui pro nobis sanguinem sudavit",
+        "Qui pro nobis flagellatus est",
+        "Qui pro nobis spinis coronatus est",
+        "Qui pro nobis crucem gravem portavit",
+        "Qui pro nobis crucifixus est"
+      ]
+    },
+    "glorious": {
+      "label": "Gloriosa",
+      "decades": [
+        "Qui a mortuis resurrexit",
+        "Qui in caelum ascendit",
+        "Qui nobis Spiritum Sanctum misit",
+        "Qui te, Virgo, in caelum assumpsit",
+        "Qui te, Virgo, in caelis coronavit"
+      ]
+    },
+    "luminous": {
+      "label": "Luminosa",
+      "decades": [
+        "Qui a Ioanne baptizatus est",
+        "Qui in nuptiis Canae manifestatus est",
+        "Qui nobis regnum Dei annuntiavit",
+        "Qui in monte transfiguratus est",
+        "Qui nobis Eucharistiam instituit"
+      ]
+    }
+  },
+  "prayers": {
+    "pater_noster": {
+      "title": "Pater Noster",
+      "text": "Pater noster, qui es in caelis, sanctificetur nomen tuum; adveniat regnum tuum; fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris; et ne nos inducas in tentationem, sed libera nos a malo. Amen."
+    },
+    "ave_maria": {
+      "title": "Ave Maria",
+      "text": "Ave Maria, gratia plena, Dominus tecum; benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen."
+    },
+    "gloria": {
+      "title": "Gloria Patri",
+      "text": "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen."
+    },
+    "creed": {
+      "title": "Symbolum Apostolicum",
+      "text": "Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae. Et in Iesum Christum, Filium eius unicum, Dominum nostrum, qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus, et sepultus, descendit ad inferos, tertia die resurrexit a mortuis, ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis, inde venturus est iudicare vivos et mortuos. Credo in Spiritum Sanctum, sanctam Ecclesiam catholicam, sanctorum communionem, remissionem peccatorum, carnis resurrectionem, vitam aeternam. Amen."
+    },
+    "fatima": {
+      "title": "Precatio Fatimensis",
+      "text": "Domine Iesu, dimitte nobis debita nostra, libera nos ab igne inferni, deduc in caelum omnes animas, praesertim eas quae misericordiae tuae maxime indigent."
+    },
+    "salve": {
+      "title": "Salve Regina",
+      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+    },
+    "closing": {
+      "title": "Precatio finalis",
+      "text": "Deus, cui Unigenitus per vitam, mortem et resurrectionem suam nobis praemia vitae aeternae comparavit: concede, quaesumus; ut haec mysteria sacratissimi Rosarii beatae Mariae Virginis pie recolentes, et imitemur quod continent, et quod promittunt assequamur. Per Christum Dominum nostrum. Amen."
+    }
+  },
+  "tutorial": {
+    "title": "De rosario precando",
+    "sections": [
+      {
+        "heading": "Quid est?",
+        "body": "Rosarium est precatio Ecclesiae qua beatissimam Virginem Mariam honoramus et vitam, passionem gloriamque Iesu Christi meditamur. Globulis vel simplici numerandi ratione mysteria — sacras imagines — ingredimur, preces familiares repetentes quae animum sedant et cor ad gratiam aperiunt."
+      },
+      {
+        "heading": "Quid necesse est?",
+        "body": "Globuli rosarii utiles sunt sed non necessarii: digitis vel nodulis numerare licet. Tempus quietum quaere (saltem decem minuta). Haec chartula unicuique Ave brevem lineam sub mysterio dat, ut meditatio facilior fiat."
+      },
+      {
+        "heading": "Ad quid confert?",
+        "body": "Rosarium nos cum Maria ad Christum contemplandum ducit. Pacem fovet, fidem confirmat, curas ad Dei caritatem dirigit. Multi intentionibus propriis, propinquis, Ecclesia, pace mundi illud recitant."
+      },
+      {
+        "heading": "Ad iocum (sed et serio): lingua Latina",
+        "body": "Ecce versio Latina tota — ad delectationem philologorum et pietatem simul. Si Latinitas tibi arridet, hanc chartulam imprime; si non, aliud locale eligito.\n\nOrdo fusius: 1. Signum crucis. 2. Symbolum Apostolicum. 3. Ter Ave Maria ad incrementum fidei, spei et caritatis — mos antiquus ante decades. 4. Primum mysterium hodierni rosarii annuntia; tum quaque decade: unum Pater Noster, decem Ave Maria mysterium pie mente tractando, Gloria Patri, precatio Fatimensis — quinquies. 5. Salve Regina (vel anthemum Marianum temporis liturgici). 6. Precatio rosarii finalis."
+      }
+    ]
+  }
+}

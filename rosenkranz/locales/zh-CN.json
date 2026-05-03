@@ -10,6 +10,17 @@
       {"days": "星期四", "mystery": "光明奥迹"}
     ]
   },
+  "prayer_order": {
+    "title": "祈祷次序",
+    "steps": [
+      "十字圣号",
+      "信经",
+      "圣母经三遍（信德、望德、爱德）",
+      "五端：每端天主经，圣母经十遍，光荣颂及法蒂玛祷文",
+      "又圣母经（万福母后）",
+      "结束祷文"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "欢喜",
@@ -61,6 +72,10 @@
       "title": "圣母经",
       "text": "万福玛利亚，满被圣宠者，主与尔偕焉，女中尔为赞美，尔胎子耶稣并为赞美。天主圣母玛利亚，为我等罪人，今祈天主，及我等死候。亚孟。"
     },
+    "gloria": {
+      "title": "圣三光荣颂",
+      "text": "愿光荣归于父、及子、及圣神。起初如何，今日亦然，直到永远。亚孟。"
+    },
     "creed": {
       "title": "信经",
       "text": "我信全能的天主父，天地万物的创造者。我信父的唯一子，我们的主耶稣基督：祂因圣神由童贞玛利亚取得肉躯，而成为人；在般雀比拉多执政时，被钉十字架，死而安葬；祂下降阴府，第三日从死者中复活；祂升了天，坐在全能天主父的右边；祂要从天降来，审判生者死者。我信圣神，圣而公教会，诸圣相通功；罪过的赦免；肉身的复活；永恒的生命。亚孟。"
@@ -70,8 +85,8 @@
       "text": "我的耶稣啊，宽恕我们的罪过，救我们免于地狱永火，引一切灵魂到天国，尤其是最需要祢仁慈的灵魂。"
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "又圣母经",
+      "text": "万福母后！仁慈的母亲，我们的生命，我们的甘饴，我们的希望。厄娃子孙在此尘世向你哀呼；在这涕泣之谷，向你叹息哭求。我们的主保，求你回顾，怜悯我们。一旦流亡期满，使我们得见你的圣子、万民称颂的耶稣。童贞玛利亚，你是宽仁的、慈悲的、甘饴的。天主圣母，请为我们祈求，使我们堪受基督的恩许。阿们。"
     },
     "closing": {
       "title": "结束祷文",
@@ -92,6 +107,10 @@
       {
         "heading": "有什么益处？",
         "body": "玫瑰经带领我们与玛利亚一同瞻仰基督。它能带来平安、坚固信德，并把日常的忧虑转向天主的爱。许多人也为个人意向、亲友、教会与世界和平而诵念。"
+      },
+      {
+        "heading": "完整祈祷顺序",
+        "body": "1. 十字圣号。\n\n2. 信经。\n\n3. 三遍圣母经——为增进信德、望德、爱德，这是进入各端前常见的开端。\n\n4. 宣告当日玫瑰经的第一个奥迹（简述内容）；然后每一端：天主经一遍，默想奥迹念圣母经十遍，圣三光荣颂，法蒂玛祷文——共五端。\n\n5. 又圣母经（万福母后 / Salve Regina），或按礼仪时节诵念圣母对经。\n\n6. 玫瑰经结束祷文。"
       }
     ]
   }

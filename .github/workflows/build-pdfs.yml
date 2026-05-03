@@ -1,0 +1,69 @@
+# Regenerate prebuilt PDFs for every locale (light + dark) and commit to main.
+# Skips runs triggered only by changes under dist/ (avoids loops).
+
+name: Build PDFs
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "dist/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pdfs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install package
+        run: pip install -e .
+
+      - name: Fetch Noto fonts (Latin/Cyrillic + CJK)
+        run: |
+          mkdir -p rosenkranz/fonts
+          LAT="https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSans"
+          curl -fsSL -o rosenkranz/fonts/NotoSans-Regular.ttf "${LAT}/NotoSans-Regular.ttf"
+          curl -fsSL -o rosenkranz/fonts/NotoSans-Bold.ttf "${LAT}/NotoSans-Bold.ttf"
+          CJKVF="https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/Variable/TTF"
+          curl -fsSL -o rosenkranz/fonts/NotoSansCJKjp-VF.ttf "${CJKVF}/NotoSansCJKjp-VF.ttf"
+          curl -fsSL -o rosenkranz/fonts/NotoSansCJKkr-VF.ttf "${CJKVF}/NotoSansCJKkr-VF.ttf"
+          curl -fsSL -o rosenkranz/fonts/NotoSansCJKsc-VF.ttf "${CJKVF}/NotoSansCJKsc-VF.ttf"
+
+      - name: Generate PDFs (all locales × dark & light)
+        run: |
+          set -euo pipefail
+          LANGS=(de en es fr pl ru ja ko zh-cn pt la)
+          for lang in "${LANGS[@]}"; do
+            mkdir -p "dist/${lang}"
+            python -m rosenkranz --lang "$lang" --theme dark -o "dist/${lang}/rosenkranz_${lang}_dark.pdf"
+            python -m rosenkranz --lang "$lang" --theme light -o "dist/${lang}/rosenkranz_${lang}_light.pdf"
+          done
+
+      - name: Upload PDF bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: rosenkranz-pdfs
+          path: dist/
+
+      - name: Commit dist to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          if git diff --staged --quiet; then
+            echo "No PDF changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(dist): regenerate PDFs (all locales, light + dark) [skip ci]"
+          git push

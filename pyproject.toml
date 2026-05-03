@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rosenkranz-pdf"
 version = "0.1.0"
-description = "Generate printable Rosary cheat-sheet PDFs in multiple languages, light/dark themes."
+description = "Generate printable Rosary cheat-sheet PDFs (tutorial + main sheet), multiple languages, light/dark themes."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

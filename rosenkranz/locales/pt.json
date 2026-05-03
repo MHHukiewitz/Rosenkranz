@@ -10,6 +10,17 @@
       {"days": "Quinta-feira", "mystery": "Luminosos"}
     ]
   },
+  "prayer_order": {
+    "title": "Ordem das orações",
+    "steps": [
+      "Sinal da Cruz",
+      "Credo dos Apóstolos",
+      "3× Ave-Maria (fé, esperança, caridade)",
+      "5 dezenas: Pai-Nosso, 10× Ave-Maria, Glória & Fátima",
+      "Salve Rainha",
+      "Oração final"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "Gozosos",
@@ -61,6 +72,10 @@
       "title": "Ave-Maria",
       "text": "Ave, Maria, cheia de graça, o Senhor é convosco, bendita sois Vós entre as mulheres, e bendito é o fruto do Vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Amen."
     },
+    "gloria": {
+      "title": "Glória",
+      "text": "Glória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre. Amém."
+    },
     "creed": {
       "title": "Credo dos Apóstolos",
       "text": "Creio em Deus Pai todo-poderoso, Criador do céu e da terra. E em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo Espírito Santo, nascer da Virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado, desceu à mansão dos mortos, ressuscitou ao terceiro dia, subiu aos céus, está sentado à direita de Deus Pai todo-poderoso, donde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na Santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amen."
@@ -70,8 +85,8 @@
       "text": "Ó meu Jesus, perdoai-nos as nossas culpas, preservai-nos do fogo do inferno, levai ao Céu todas as almas, especialmente as que mais precisarem da vossa misericórdia."
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "Salve Rainha",
+      "text": "Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve! A Vós bradamos os degredados filhos de Eva; a Vós suspiramos gemendo e chorando neste vale de lágrimas. Eia, pois, Advogada nossa, esses Vossos olhos misericordiosos a nós volvei; e depois deste desterro mostrai-nos Jesus, bendito fruto do Vosso ventre, ó clemente, ó piedosa, ó doce sempre Virgem Maria."
     },
     "closing": {
       "title": "Oração final",
@@ -92,6 +107,10 @@
       {
         "heading": "Para que serve?",
         "body": "O terço leva-nos a contemplar Cristo com Maria. Dá paz, fortalece a fé e orienta as preocupações para o amor de Deus. Muitos rezam por intenções pessoais, pela família, pela Igreja e pela paz no mundo."
+      },
+      {
+        "heading": "Sequência completa",
+        "body": "1. Sinal da Cruz.\n\n2. Credo dos Apóstolos.\n\n3. Três Ave-Marias pelo aumento da fé, esperança e caridade — o tríade habitual antes das dezenas.\n\n4. Anunciar o primeiro mistério do terço do dia; em cada dezena: um Pai-Nosso, dez Ave-Marias meditando o mistério, Glória, oração de Fátima — cinco vezes.\n\n5. Salve Rainha (Salve Regina), ou a antífona mariana do tempo litúrgico.\n\n6. Oração final do terço."
       }
     ]
   }

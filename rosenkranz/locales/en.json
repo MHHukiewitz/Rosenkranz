@@ -10,6 +10,17 @@
       {"days": "Thursday", "mystery": "Luminous"}
     ]
   },
+  "prayer_order": {
+    "title": "Prayer sequence",
+    "steps": [
+      "Sign of the Cross",
+      "Apostles’ Creed",
+      "3× Hail Mary (faith, hope, charity)",
+      "5 decades: Our Father, 10× Hail Mary, Glory Be & Fatima prayer",
+      "Hail, Holy Queen (Salve Regina)",
+      "Closing prayer"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "Joyful",
@@ -61,6 +72,10 @@
       "title": "Hail Mary",
       "text": "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen."
     },
+    "gloria": {
+      "title": "Glory Be",
+      "text": "Glory be to the Father, and to the Son, and to the Holy Spirit: as it was in the beginning, is now, and ever shall be, world without end. Amen."
+    },
     "creed": {
       "title": "Apostles' Creed",
       "text": "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; He descended into hell; on the third day He rose again from the dead; He ascended into heaven, and is seated at the right hand of God the Father almighty; from there He will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
@@ -70,8 +85,8 @@
       "text": "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of Thy mercy."
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "Hail, Holy Queen",
+      "text": "Hail, holy Queen, Mother of mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us; and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary."
     },
     "closing": {
       "title": "Closing prayer",
@@ -92,6 +107,10 @@
       {
         "heading": "What is it for?",
         "body": "The Rosary leads us to contemplate Christ with Mary. It fosters peace, strengthens faith, and turns everyday worries toward God’s loving plan. Many pray it for personal intentions, for family and friends, for the Church, and for peace in the world."
+      },
+      {
+        "heading": "Full prayer sequence",
+        "body": "1. Sign of the Cross.\n\n2. Apostles’ Creed.\n\n3. Three Hail Marys for an increase of faith, hope, and charity — the usual introductory triplet before the decades.\n\n4. Announce the first mystery of today’s rosary (say its theme briefly); then for each decade: one Our Father, ten Hail Marys meditating on the mystery, Glory Be, Fatima prayer — repeat for all five mysteries.\n\n5. Hail, Holy Queen (Salve Regina), or the seasonal Marian antiphon.\n\n6. Closing prayer of the Rosary."
       }
     ]
   }

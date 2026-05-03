@@ -10,6 +10,17 @@
       {"days": "Donnerstag", "mystery": "Lichtreich"}
     ]
   },
+  "prayer_order": {
+    "title": "Gebetsfolge",
+    "steps": [
+      "Kreuzzeichen",
+      "Glaubensbekenntnis",
+      "3× Ave Maria (Glaube, Hoffnung, Liebe)",
+      "5 Dekaden: je Vaterunser, 10× Ave Maria, Ehre sei … & Fatima",
+      "Gegrüßet seist du, Königin (Salve Regina)",
+      "Schlussgebet"
+    ]
+  },
   "mysteries": {
     "joyful": {
       "label": "Freudenreich",
@@ -61,6 +72,10 @@
       "title": "Ave Maria",
       "text": "Gegrüßet seist du, Maria, voll der Gnade, der Herr ist mit dir. Du bist gebenedeit unter den Frauen, und gebenedeit ist die Frucht deines Leibes, Jesus. Heilige Maria, Mutter Gottes, bitte für uns Sünder, jetzt und in der Stunde unseres Todes. Amen."
     },
+    "gloria": {
+      "title": "Ehre sei …",
+      "text": "Ehre sei dem Vater und dem Sohn und dem Heiligen Geist, wie im Anfang, so auch jetzt und alle Zeit und in Ewigkeit. Amen."
+    },
     "creed": {
       "title": "Glaubensbekenntnis",
       "text": "Ich glaube an Gott, den Vater, den Allmächtigen, den Schöpfer des Himmels und der Erde, und an Jesus Christus, seinen eingeborenen Sohn, unseren Herrn, empfangen durch den Heiligen Geist, geboren von der Jungfrau Maria, gelitten unter Pontius Pilatus, gekreuzigt, gestorben und begraben, hinabgestiegen in das Reich des Todes, am dritten Tage auferstanden von den Toten, aufgefahren in den Himmel; er sitzt zur Rechten Gottes, des allmächtigen Vaters; von dort wird er kommen, zu richten die Lebenden und die Toten. Ich glaube an den Heiligen Geist, die heilige katholische Kirche, Gemeinschaft der Heiligen, Vergebung der Sünden, Auferstehung der Toten und das ewige Leben. Amen."
@@ -70,8 +85,8 @@
       "text": "O mein Jesus, verzeih uns unsere Sünden, bewahre uns vor dem Feuer der Hölle, führe alle Seelen in den Himmel, besonders jene, die deiner Barmherzigkeit am meisten bedürfen."
     },
     "salve": {
-      "title": "Salve Regina",
-      "text": "Salve, Regina, mater misericordiae, vita, dulcedo et spes nostra, salve. Ad te clamamus, exsules filii Evae. Ad te suspiramus, gementes et flentes in hac lacrimarum valle. Eia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte. Et Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende. O clemens, o pia, o dulcis Virgo Maria."
+      "title": "Gegrüßet seist du, Königin",
+      "text": "Sei gegrüßet, Königin, Mutter der Barmherzigkeit, unser Leben, unsere Süßigkeit und unsere Hoffnung, sei gegrüßet. Zu dir rufen wir, verbannte Kinder Evas; zu dir seufzen wir, trauernd und weinend in diesem Tal der Tränen. Wende daher, unsere Fürsprecherin, deine barmherzigen Augen uns zu. Und nach diesem unserem Exil zeige uns Jesus, die gebenedeite Frucht deines Leibes. O gütige, o milde, o süße Jungfrau Maria."
     },
     "closing": {
       "title": "Schlussgebet",
@@ -92,6 +107,10 @@
       {
         "heading": "Wozu dient er?",
         "body": "Der Rosenkranz führt uns mit Maria zu Christus. Er schenkt Frieden, stärkt den Glauben und richtet Sorgen auf Gott aus. Viele beten ihn für eigene Anliegen, für Familie und Freunde, für die Kirche und für Frieden in der Welt."
+      },
+      {
+        "heading": "Ausführliche Gebetsfolge",
+        "body": "1. Kreuzzeichen.\n\n2. Glaubensbekenntnis (Apostolicum).\n\n3. Dreimal Ave Maria zur Ehre der göttlichen Weisheit und zur Steigerung von Glaube, Hoffnung und Liebe — das klassische Einleitungsbrückchen vor den Dekaden.\n\n4. Das erste Geheimnis des heutigen Rosenkranzes verkünden (kurz den Inhalt nennen); dann je Dekade: ein Vaterunser, zehn Ave Maria unter Betrachtung des Geheimnisses, „Ehre sei dem Vater und dem Sohn und dem Heiligen Geist …“, Fatima-Gebet — insgesamt fünfmal für die fünf Geheimnisse.\n\n5. Gegrüßet seist du, Königin (Salve Regina) — oder die jeweilige liturgische marianische Antiphon zur Jahreszeit.\n\n6. Schlussgebet des Rosenkranzes."
       }
     ]
   }
