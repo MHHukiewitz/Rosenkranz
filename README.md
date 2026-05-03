@@ -1,4 +1,4 @@
-# Rosenkranz PDF
+# Rosenkranz - Rosary Cheat Sheet
 
 CLI that builds a **Rosary cheat sheet**: page 1 is a short **tutorial** (what it is, what you need, purpose, **full prayer sequence** including the three Hail Marys for faith, hope, and charity); page 2 has weekday → mystery set, compact **Gebetsfolge**, mystery tables, **Our Father**, **Hail Mary**, **Glory Be** (kleine Doxologie), Creed, Fatima prayer, Latin *Salve Regina*, and closing prayer. **Light/dark** themes and **eleven locales** (including ecclesiastical **Latin** for fun).
 
