@@ -454,6 +454,28 @@ def render_pdf(
     )
     y = min(bottom_days, bottom_order) - 6
 
+    prayers = data["prayers"]
+    box_w = W - 2 * MARGIN
+    box_style = (9.85, 8.65, 9.55)
+
+    def draw_prayer_boxes(boxes: list[tuple[str, str, float, float, float]]) -> None:
+        nonlocal y
+        for idx, (ptitle, pbody, ts, bs, ld) in enumerate(boxes):
+            h = estimate_box_height(ptitle, pbody, box_w, ts, bs, ld, font_bold, font_reg, unspaced_wrap=uw)
+            gap = 5 if idx < len(boxes) - 1 else 0
+            y = ensure_space(c, y, h + gap + 6, palette)
+            y = draw_box(c, ptitle, pbody, MARGIN, y, box_w, palette, font_reg, font_bold, ts, bs, ld, unspaced_wrap=uw) - gap
+
+    creed = prayers["creed"]
+    ave = prayers["ave_maria"]
+    draw_prayer_boxes(
+        [
+            (creed["title"], creed["text"], *box_style),
+            (ave["title"], ave["text"], *box_style),
+        ]
+    )
+    y -= 2
+
     my = data["mysteries"]
     freuden = [[str(i + 1), t] for i, t in enumerate(my["joyful"]["decades"])]
     schmerz = [[str(i + 1), t] for i, t in enumerate(my["sorrowful"]["decades"])]
@@ -478,37 +500,16 @@ def render_pdf(
     )
     y = min(bottom3, bottom4) - 7
 
-    prayers = data["prayers"]
-    box_w = W - 2 * MARGIN
-
     pater = prayers["pater_noster"]
-    ave = prayers["ave_maria"]
     gloria = prayers["gloria"]
-    for title_key, body_key, ts, bs, ld in [
-        (pater["title"], pater["text"], 9.85, 8.65, 9.55),
-        (ave["title"], ave["text"], 9.85, 8.65, 9.55),
-        (gloria["title"], gloria["text"], 9.85, 8.65, 9.35),
-    ]:
-        h = estimate_box_height(title_key, body_key, box_w, ts, bs, ld, font_bold, font_reg, unspaced_wrap=uw)
-        y = ensure_space(c, y, h + 8, palette)
-        y = (
-            draw_box(
-                c, title_key, body_key, MARGIN, y, box_w, palette, font_reg, font_bold, ts, bs, ld, unspaced_wrap=uw
-            )
-            - 5
-        )
-
-    prayer_boxes = [
-        (prayers["creed"]["title"], prayers["creed"]["text"], 9.85, 8.65, 9.55),
-        (prayers["fatima"]["title"], prayers["fatima"]["text"], 9.85, 8.75, 9.65),
-        (prayers["salve"]["title"], prayers["salve"]["text"], 9.85, 8.65, 9.45),
-        (prayers["closing"]["title"], prayers["closing"]["text"], 9.85, 8.65, 9.45),
-    ]
-
-    for idx, (ptitle, pbody, ts, bs, ld) in enumerate(prayer_boxes):
-        h = estimate_box_height(ptitle, pbody, box_w, ts, bs, ld, font_bold, font_reg, unspaced_wrap=uw)
-        gap = 5 if idx < len(prayer_boxes) - 1 else 0
-        y = ensure_space(c, y, h + gap + 6, palette)
-        y = draw_box(c, ptitle, pbody, MARGIN, y, box_w, palette, font_reg, font_bold, ts, bs, ld, unspaced_wrap=uw) - gap
+    draw_prayer_boxes(
+        [
+            (pater["title"], pater["text"], *box_style),
+            (gloria["title"], gloria["text"], 9.85, 8.65, 9.35),
+            (prayers["fatima"]["title"], prayers["fatima"]["text"], 9.85, 8.75, 9.65),
+            (prayers["salve"]["title"], prayers["salve"]["text"], 9.85, 8.65, 9.45),
+            (prayers["closing"]["title"], prayers["closing"]["text"], 9.85, 8.65, 9.45),
+        ]
+    )
 
     c.save()

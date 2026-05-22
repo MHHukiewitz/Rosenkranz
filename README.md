@@ -1,10 +1,23 @@
-# Rosenkranz - Rosary Cheat Sheet
+# Rosenkranz – Rosary Cheat Sheet
 
-CLI that builds a **Rosary cheat sheet**: page 1 is a short **tutorial** (what it is, what you need, purpose, **full prayer sequence** including the three Hail Marys for faith, hope, and charity); page 2 has weekday → mystery set, compact **Gebetsfolge**, mystery tables, **Our Father**, **Hail Mary**, **Glory Be** (kleine Doxologie), Creed, Fatima prayer, Latin *Salve Regina*, and closing prayer. **Light/dark** themes and **eleven locales** (including ecclesiastical **Latin**).
+CLI that builds a printable **Rosary cheat sheet** (two pages: tutorial, then the compact reference).
+
+## What’s in the PDF
+
+**Page 1 — Tutorial**  
+What the Rosary is, what you need, why people pray it, and the **full prayer sequence** (including the three Hail Marys for faith, hope, and charity).
+
+**Page 2 — Cheat sheet**  
+Weekday → mystery set and a narrow **prayer-order** column, then **Creed** and **Hail Mary**, the four mystery tables (joyful, sorrowful, glorious, luminous), then **Our Father**, **Glory Be**, Fatima prayer, **Salve Regina**, and the closing Rosary prayer.
+
+**Languages & themes**  
+Eleven locales: `de`, `en`, `es`, `fr`, `pl`, `ru`, `pt`, `ja`, `ko`, `zh-cn`, `la`.  
+Prayer texts follow each locale; **ecclesiastical Latin** is reserved for **`la`** (including *Salve Regina*). **`light`** and **`dark`** themes.
+
+**Japanese & Chinese layout**  
+For **`ja`** and **`zh-cn`**, lines wrap between glyphs (no reliance on spaces). Line spacing is tuned so stacked lines stay readable.
 
 ## Setup
-
-Use a virtual environment (recommended on macOS/Homebrew Python):
 
 ```bash
 python3 -m venv .venv
@@ -12,56 +25,54 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e .
 ```
 
-Dependency: [ReportLab](https://www.reportlab.com/).
+Requires Python **≥ 3.10** and [ReportLab](https://www.reportlab.com/) **≥ 4** (see [`pyproject.toml`](pyproject.toml)).
 
 ## Usage
 
 ```bash
 rosenkranz-pdf --lang en --theme dark -o rosary.pdf
 python -m rosenkranz --lang de --theme light
+python -m rosenkranz --lang zh-cn --theme dark -o out/zh.pdf
 ```
 
-- **`--lang`**: `de`, `en`, `es`, `fr`, `pl`, `ru`, `ja`, `ko`, `zh-cn`, `pt`, `la` (Latin; aliases: `zh` → `zh-cn`).
-- **`--theme`**: `light` or `dark`.
-- **`-o` / `--output`**: output path (default: `rosenkranz_<lang>_<theme>.pdf`).
+| Option | Meaning |
+|--------|---------|
+| **`--lang`** | `de` (default), `en`, `es`, `fr`, `pl`, `ru`, `pt`, `ja`, `ko`, `zh-cn`, `la`. Aliases: `zh`, `zh-hans` → `zh-cn`; `pt-br` → `pt`. |
+| **`--theme`** | `light` or `dark`. |
+| **`-o` / `--output`** | Output path; default `rosenkranz_<lang>_<theme>.pdf` (`zh-cn` → `rosenkranz_zh-cn_…`). |
 
-## Fonts (Russian, Japanese, Korean, Chinese)
+[`main.py`](main.py) calls the same entry point: `python main.py --lang en --theme dark`.
 
-Built-in PDF fonts do **not** cover Cyrillic or CJK glyphs. For **`ru`**, **`ja`**, **`ko`**, and **`zh-cn`**, install **Noto Sans** files into either:
+## Fonts (Cyrillic & CJK)
 
-- [`rosenkranz/fonts/`](rosenkranz/fonts/) inside this repo (directory may be empty until you add files), or  
+Helvetica cannot render Cyrillic or CJK. For **`ru`**, **`ja`**, **`ko`**, and **`zh-cn`**, place **Noto Sans** files in one of:
+
+- [`rosenkranz/fonts/`](rosenkranz/fonts/) (often empty in git; add files locally),  
 - `~/.local/share/rosenkranz/fonts/`, or  
-- any directory pointed to by **`ROSENKRANZ_FONT_DIR`**.
+- a directory set in **`ROSENKRANZ_FONT_DIR`**.
 
-ReportLab’s `TTFont` loader does **not** support the usual **noto-cjk `.otf`** files (CFF outlines). Prefer the variable **TTF** builds below, or static **`.ttf`** subsets.
-
-Expected names (Regular + Bold pairs; bold may fall back to regular):
+ReportLab’s `TTFont` **does not load** typical **noto-cjk `.otf`** (CFF outlines). Use **variable TTF** or **`.ttf`** subsets instead.
 
 | Locale | Regular | Bold |
 |--------|---------|------|
 | `ru` | `NotoSans-Regular.ttf` | `NotoSans-Bold.ttf` |
-| `ja` | `NotoSansCJKjp-VF.ttf` or `NotoSansJP-Regular.ttf` | matching Bold or same VF |
-| `ko` | `NotoSansCJKkr-VF.ttf` or `NotoSansKR-Regular.ttf` | matching Bold or same VF |
-| `zh-cn` | `NotoSansCJKsc-VF.ttf` or `NotoSansSC-Regular.ttf` | matching Bold or same VF |
+| `ja` | `NotoSansCJKjp-VF.ttf` or `NotoSansJP-Regular.ttf` | bold file or same VF |
+| `ko` | `NotoSansCJKkr-VF.ttf` or `NotoSansKR-Regular.ttf` | bold file or same VF |
+| `zh-cn` | `NotoSansCJKsc-VF.ttf` or `NotoSansSC-Regular.ttf` | bold file or same VF |
 
-CI downloads **`NotoSansCJK{jp,kr,sc}-VF.ttf`** from [noto-cjk `Sans/Variable/TTF`](https://github.com/notofonts/noto-cjk/tree/main/Sans/Variable/TTF). Older **`NotoSansCJK*-Regular.otf`** names remain as fallbacks but often fail at runtime with ReportLab.
+Latin and most European text can use the same **`NotoSans-{Regular,Bold}.ttf`** pair; without them, the tool falls back to Helvetica (fine for many Latin-only locales, not for `ru` / CJK).
 
-Download from [Google Fonts](https://fonts.google.com/) or the [noto-fonts](https://github.com/notofonts/noto-fonts) project. Noto fonts are licensed under the **OFL**.
+Noto fonts are **OFL**-licensed ([Noto](https://github.com/notofonts/noto-fonts), [Noto CJK](https://github.com/notofonts/noto-cjk)).
 
-European Latin locales may use the same **Noto Sans** pair for full Unicode coverage (e.g. Polish diacritics); if those files are absent, the tool falls back to Helvetica.
+## Prebuilt PDFs
 
-## Legacy script
+Ready-made files live under **`dist/<lang>/`**:
 
-[`main.py`](main.py) delegates to the same CLI:
+- `rosenkranz_<lang>_dark.pdf`
+- `rosenkranz_<lang>_light.pdf`
 
-```bash
-python main.py --lang en --theme dark
-```
-
-## Prebuilt PDFs (CI)
-
-On every push to **`main`** that does not only touch `dist/`, [`.github/workflows/build-pdfs.yml`](.github/workflows/build-pdfs.yml) regenerates PDFs for **all locales**, each in **`dist/<lang>/`**, as **`rosenkranz_<lang>_dark.pdf`** and **`rosenkranz_<lang>_light.pdf`**. Results are committed with **`[skip ci]`** so the job does not run again on that commit. The same folder is also attached as a workflow **artifact** (`rosenkranz-pdfs`).
+On pushes to **`main`** that change files **outside** `dist/`, [`.github/workflows/build-pdfs.yml`](.github/workflows/build-pdfs.yml) reinstalls the package, downloads Noto (Latin + CJK variable TTFs), rebuilds all PDFs, uploads the **`dist/`** tree as artifact **`rosenkranz-pdfs`**, and commits updates under **`dist/`** with **`[skip ci]`** so that commit does not retrigger the workflow.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+Locales live in [`rosenkranz/locales/*.json`](rosenkranz/locales/). See [CONTRIBUTING.md](CONTRIBUTING.md).
